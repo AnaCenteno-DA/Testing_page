@@ -3,7 +3,7 @@ const products = [
   {
     id: 1,
     name: "Gold Pendant",
-    price: 120,
+    price: 125,
     image: "https://images.unsplash.com/photo-1610694955371-d4a3e0ce4b52?auto=format&fit=crop&w=400&q=80"
   },
   {
