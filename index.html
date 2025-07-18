@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Necklace Boutique</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EV1G40TXDG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EV1G40TXDG');
+</script>
+<body>
+  <header>
+    <h1>Necklace Boutique</h1>
+    <button id="cart-btn">🛒 Cart (<span id="cart-count">0</span>)</button>
+  </header>
+
+  <main>
+    <section class="product-grid" id="product-grid">
+      <!-- Products inserted by JS -->
+    </section>
+  </main>
+
+  <div class="cart-modal" id="cart-modal">
+    <h2>Your Cart</h2>
+    <ul id="cart-items"></ul>
+    <div class="cart-actions">
+      <button id="checkout-btn">Go to Checkout</button>
+      <button id="close-cart">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

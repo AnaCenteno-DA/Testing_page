@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkout - Necklace Boutique</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EV1G40TXDG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EV1G40TXDG');
+</script>
+<body>
+  <div class="checkout-container">
+    <h1>Checkout</h1>
+    <form class="checkout-form" onsubmit="event.preventDefault(); alert('Order Placed Successfully!');">
+      <label>
+        Full Name
+        <input type="text" required>
+      </label>
+
+      <label>
+        Email
+        <input type="email" required>
+      </label>
+
+      <label>
+        Shipping Address
+        <textarea required></textarea>
+      </label>
+
+      <label>
+        Payment Method
+        <select required>
+          <option value="">Choose...</option>
+          <option value="credit">Credit Card</option>
+          <option value="paypal">PayPal</option>
+        </select>
+      </label>
+
+      <button type="">Place Order</button>
+    </form>
+  </div>
+</body>
+</html>
